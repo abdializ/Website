@@ -210,8 +210,7 @@ a:not([class]) {
       position: relative;
       transform: translateX(28%);
       margin: 2rem;
-      display: flex;
-      overflow-x: hidden;
+      overflow-x: auto;
       overflow-y: hidden;
       color: #bc986a;
 
