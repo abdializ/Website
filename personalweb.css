@@ -47,6 +47,8 @@ body {
  
   counter-reset: theorem definition sidenote-counter;
   text-rendering: optimizeLegibility;
+
+
 }
 
 html {
@@ -205,16 +207,33 @@ a:not([class]) {
   blockquote {
       border-left: #bc986a solid;
       font-style: italic;
-      padding: 1rem 1rem 1rem 2rem;
+      padding: 0.5rem 0.5rem 0.5rem 1rem;
       padding-left: 30px;
       position: relative;
       transform: translateX(28%);
       margin: 2rem;
+      max-width: 90%; 
       overflow-x: auto;
       overflow-y: hidden;
       color: #bc986a;
-
+      word-wrap: break-word; 
   }
+
+
+
+
+  user agent stylesheet 
+  blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+
+
+ 
 
 
 
@@ -226,7 +245,8 @@ a:not([class]) {
 }
 
 .text-center {
-    text-align: center;
+    text-align: bottom;
+
 }
 h2, h3, h4, h5, h6 {
     margin-bottom: 0.8rem;
@@ -257,7 +277,7 @@ h6 {
     margin-inline-start: 1px;
     margin-inline-end: 0px;
     font-weight: bold;
-    margin-top: 2rem;
+    margin-top: auto;
 }
 
 
@@ -267,10 +287,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 1px;
-    transform: scale(0.7); /* Adjust the value to scale (e.g., 0.75 for 75%) */
-    margin-top: -7rem
-    
+    border-radius: 5px;
+    transform: scale(.8); /* Adjust the value to scale (e.g., 0.75 for 75%) */
+   margin-top: -2rem;
 }  
 
 .photo {
@@ -311,7 +330,7 @@ img {
     max-width:1280px
     
     }
-    }
+}
 
 
 
@@ -327,9 +346,9 @@ img {
 
 .text-center {
     text-align: center;
-    margin-top: -2rem;
-}
+   margin-top: -2rem;
 
+}
 
 
 
