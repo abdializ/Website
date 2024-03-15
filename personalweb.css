@@ -9,8 +9,6 @@
 
 }
 
-
-
 /* Remove default margin */
 body,
 h1,
@@ -31,7 +29,7 @@ dd {
 .logo {
     color: #bc986a;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 body {
@@ -46,6 +44,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    /*scroll.velocity: 90;*/
 }
 
 p {
@@ -81,14 +80,14 @@ nav {
 a {
     color: #bc986a;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: #daad86;
 }
 
 a:hover {
-    color: #bc986a;
+    color: #daad86;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: #bc986a;
+    text-decoration-color: #daad86;
     /* text underline noted */
 }
 
@@ -211,6 +210,74 @@ a:not([class]) {
 
   }
 
+
+
+
+  /* About me section */
+
+  h1:first-child {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    margin-bottom: 0.8rem;
+}
+h3, h4, h5, h6 {
+    line-height: 1.625rem;
+}
+h6 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 2.5rem;
+    text-align: center;
+    color: #bc986a;
+}
+article > * + * {
+    margin-top: 1em;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 1px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 1px;
+    transform: scale(0.7); /* Adjust the value to scale (e.g., 0.75 for 75%) */
+    margin-top: -10rem;
+}  
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: -7rem;
+}
 
 
 
