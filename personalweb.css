@@ -9,6 +9,13 @@
 
 }
 
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
+
 /* Remove default margin */
 body,
 h1,
