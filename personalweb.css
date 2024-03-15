@@ -272,6 +272,50 @@ img {
     transform: scale(0.7); /* Adjust the value to scale (e.g., 0.75 for 75%) */
     margin-top: -10rem;
 }  
+
+.photo {
+    width: 100%; 
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 0.5rem; 
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 475px){
+    .photo {
+    max-width:475px;
+    }
+}
+
+@media (min-width: 640px){
+    .photo {
+    max-width:640px;
+    }
+}
+
+@media (min-width: 768px){
+    .photo {
+    max-width:768px;
+    }
+}
+
+@media (min-width: 1024px){
+    .photo {
+    max-width:1024px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .photo {
+    max-width:1280px
+    
+    }
+    }
+
+
+
+    
 *, *::before, *::after {
     box-sizing: border-box;
 }
