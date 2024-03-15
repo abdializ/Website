@@ -270,7 +270,7 @@ img {
     display: block;
     border-radius: 1px;
     transform: scale(0.7); /* Adjust the value to scale (e.g., 0.75 for 75%) */
-    margin-top: -10rem;
+    
 }  
 
 .photo {
