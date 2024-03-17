@@ -231,7 +231,8 @@ a:not([class]) {
       padding: 0.5rem 0.5rem 0.5rem 1rem;
       padding-left: 30px;
       position: relative;
-      transform: translateX(28%);
+    
+      text-align: center;
       margin: 3rem;
       max-width: 90%; 
       overflow-x: hidden;
