@@ -33,6 +33,21 @@ dd {
   margin: 0;
 }
 
+#copyright {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fbeec1; /* Optional: Add a background color */
+    padding: 10px 0; /* Optional: Add some padding */
+}
+
+#copyright {
+    font-size: 14px;
+    color: #bc986a;
+    font-weight: bolder;
+}
+
 .logo {
     color: #bc986a;
     font-weight: bold;
@@ -56,10 +71,15 @@ html {
     /*scroll.velocity: 90;*/
 }
 
-p {
+h2{
     color:#bc986a;
     font-weight: bold;
+    margin-bottom: 10rem;
+    text-align: center;
+    font-size: medium;
 }
+
+
 
 /* transition */ 
 
@@ -151,7 +171,7 @@ cursor: default;
     display: block;
     padding: 2px;
     text-align: center;
-    font-size: 1rem;
+    font-size: .92rem;
     color: #bc986a;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
@@ -212,9 +232,9 @@ a:not([class]) {
       padding-left: 30px;
       position: relative;
       transform: translateX(28%);
-      margin: 2rem;
+      margin: 3rem;
       max-width: 90%; 
-      overflow-x: auto;
+      overflow-x: hidden;
       overflow-y: hidden;
       color: #bc986a;
       word-wrap: break-word; 
@@ -255,11 +275,20 @@ h2, h3, h4, h5, h6 {
 h3, h4, h5, h6 {
     line-height: 1.625rem;
 }
+
+.text-center {
+    color:#bc986a;
+    font-weight: bold;
+    margin-bottom: 7rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 h6 {
     font-size: 1rem;
     font-style: italic;
     font-weight: normal;
-    margin-top: 2.5rem;
+    margin-bottom: 3rem;
     text-align: center;
     color: #bc986a;
 }
@@ -290,7 +319,7 @@ img {
     display: block;
     border-radius: 5px;
     transform: scale(.8); /* Adjust the value to scale (e.g., 0.75 for 75%) */
-   margin-top: -2rem;
+   margin-top: -7rem;
 }  
 
 .photo {
@@ -350,7 +379,6 @@ img {
    margin-top: -2rem;
 
 }
-
 
 
 
