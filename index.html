@@ -46,7 +46,8 @@
             </div>
         </nav>
         <div id=content>
-            <p>Welcome to the personal website of Abdisalam S. Ali, go on the tabs on the right if you intersted in my favorite books, blog post, or just want to get in contact :) </p>
+            <h2 id="Welcome">Welcome to the personal website of Abdisalam S. Ali, go on the tabs on the right if you intersted in my favorite books, blog post, or just want to get in contact :) </h2>
+        </div>
             <div class=quote role=main>
                 <blockquote>
                     "God gave us the gift of life; it is up to us to give, 
@@ -55,7 +56,12 @@
                 <br>
         <script src="personalweb.js"></script>
             </div>
+            <div id="copyright">&copy; Abdisalam Sharif Ali <span id="year"></span></div>
 
+            <script>
+                // JavaScript to update copyright year
+                document.getElementById("copyright").innerHTML = "&copy; Abdisalam Sharif Ali " + new Date().getFullYear();
+            </script>
     </body>
    </html>
 
