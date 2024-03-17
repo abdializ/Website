@@ -60,8 +60,12 @@
             </div>
             <script src="personalweb.js"></script>
            </div>
-          
+           <div id="copyright">&copy; Abdisalam Sharif Ali <span id="year"></span></div>
+
+           <script>
+               // JavaScript to update copyright year
+               document.getElementById("copyright").innerHTML = "&copy; Abdisalam Sharif Ali " + new Date().getFullYear();
+           </script>
         </body>
     </head>
    </html>
-
