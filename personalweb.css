@@ -381,6 +381,22 @@ img {
 
 }
 
+.video-container {
+  border-left: transparent solid;
+      font-style: italic;
+      padding: 0.5rem 0.5rem 0.5rem 1rem;
+      padding-left: 30px;
+      position: relative;
+    
+      text-align: center;
+      margin: 3rem;
+      max-width: 90%; 
+      overflow-x: hidden;
+      overflow-y: hidden;
+      color: #bc986a;
+      word-wrap: break-word; 
+   
+  }
 
 
 
