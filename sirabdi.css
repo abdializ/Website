@@ -66,3 +66,21 @@ p {
     animation: spin-reverse 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite, scaleInOut 2s ease-in-out infinite;
 }
 
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .spinning-a {
+        font-size: 2em; /* Decrease font size */
+        margin-bottom: 10px; /* Adjust spacing */
+    }
+    
+    #h1-text {
+        font-size: 1.5em; /* Decrease font size */
+    }
+    
+    #p-text {
+        font-size: 1em; /* Decrease font size */
+    }
+}
+
