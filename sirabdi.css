@@ -1,0 +1,68 @@
+/* Reset some basic elements for a clean slate */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #090B09; /* Creamy background color */
+    overflow: hidden;
+}
+
+
+.container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #2B2A2A; /* Example color for text against video background */
+}
+
+.spinning-a {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    animation: spin 5s linear infinite, scaleInOut 5s ease-in-out infinite;
+    transform-origin: center;
+}
+h1 {
+    font-size: 2em;
+    color: #2B2A2A; /* Change color as needed */
+    margin: 0 0 10px;
+    animation: blink-caret .75s step-end infinite ;
+}
+
+
+p {
+    font-size: 1.2em;
+    color: #ffffff; /* Change color as needed */
+    margin: 0;
+    white-space: nowrap; /* Ensure the text doesn't wrap */
+    overflow: hidden; /* Hide the overflowing text */
+    border-right: .15em solid #777777; /* Blinking cursor effect */
+    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes spin-reverse {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+.spinning-a:hover {
+    animation: spin-reverse 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite, scaleInOut 2s ease-in-out infinite;
+}
+
