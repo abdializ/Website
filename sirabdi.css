@@ -43,6 +43,7 @@ p {
     overflow: hidden; /* Hide the overflowing text */
     border-right: .15em solid #777777; /* Blinking cursor effect */
     animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+    
 }
 
 @keyframes typing {
@@ -64,6 +65,14 @@ p {
 }
 .spinning-a:hover {
     animation: spin-reverse 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite, scaleInOut 2s ease-in-out infinite;
+}
+
+/* Animation for fading in and out */
+@keyframes fadeInOut {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1;  }
+
 }
 
 /* Responsive Design */
