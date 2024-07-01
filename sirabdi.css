@@ -22,7 +22,7 @@ body, html {
 
 .spinning-a {
     font-size: 3em;
-    color: #ffffff;
+    color: #2B2A2A;
     margin-bottom: 20px;
     animation: spin 5s linear infinite, scaleInOut 5s ease-in-out infinite;
     transform-origin: center;
@@ -34,16 +34,46 @@ h1 {
     animation: blink-caret .75s step-end infinite ;
 }
 
+.text-color {
+    color: #2B2A2A; /* Change this to your desired color */
+}
 
 p {
     font-size: 1.2em;
-    color: #ffffff; /* Change color as needed */
+    color: #2B2A2A; /* Change color as needed */
     margin: 0;
     white-space: nowrap; /* Ensure the text doesn't wrap */
     overflow: hidden; /* Hide the overflowing text */
     border-right: .15em solid #777777; /* Blinking cursor effect */
     animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
     
+}
+
+/* nav bar */
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar .homelist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar .homelist li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar .homelist li a {
+    text-decoration: none;
+    color: #2B2A2A; /* White color for the links */
+    font-size: 1.2em; /* Adjust the font size as needed */
+    transition: color 0.3s ease;
+}
+
+.navbar .homelist li a:hover {
+    color: #928585; /* Lighter shade on hover */
 }
 
 @keyframes typing {
@@ -53,7 +83,7 @@ p {
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: white; }
+    50% { border-color: #2B2A2A; }
 }
 @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -92,4 +122,5 @@ p {
         font-size: 1em; /* Decrease font size */
     }
 }
+
 
