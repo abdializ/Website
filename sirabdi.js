@@ -5,7 +5,7 @@ const texts = [
     'In costruzione', // Italian
     'قيد الإنشاء', // Arabic
     'Socodka dhismaha', // Somali
-    'Under Construction'  //English
+    'Under Construction'  // English
 ];
 let textIndex = 0;
 let index = 0;
@@ -21,8 +21,11 @@ function type() {
 }
 
 function changeText() {
+    text.style.color = '#2B2A2A'; // Set the color you want
+
     text.innerHTML = texts[textIndex];
     textIndex = (textIndex + 1) % texts.length;
+
     setTimeout(changeText, 3000); // Change text every 3 seconds
 }
 
