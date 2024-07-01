@@ -1,4 +1,3 @@
-/* Reset some basic elements for a clean slate */
 body, html {
     margin: 0;
     padding: 0;
@@ -68,12 +67,41 @@ p {
 .navbar .homelist li a {
     text-decoration: none;
     color: #2B2A2A; /* White color for the links */
-    font-size: 1.2em; /* Adjust the font size as needed */
+    font-size: 1.3em; /* Adjust the font size as needed */
     transition: color 0.3s ease;
 }
 
 .navbar .homelist li a:hover {
     color: #928585; /* Lighter shade on hover */
+}
+
+/* Social Media Icons */
+.social-media {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    width: 100%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 0 10px; /* Adjust spacing as needed */
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    filter: invert(34%) sepia(3%) saturate(0%) hue-rotate(200deg) brightness(96%) contrast(91%); /* Change this filter to match the color of your h1 element */
+    transition: filter 0.3s ease;
+}
+
+.social-icon img:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(200deg) brightness(100%) contrast(100%); /* Adjust hover effect as needed */
+}
+
+/* Change the color to match the h1 element */
+h1, .social-icon img {
+    color: #2B2A2A; /* Same color as h1 */
 }
 
 @keyframes typing {
