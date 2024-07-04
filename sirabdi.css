@@ -26,20 +26,20 @@ body, html {
     animation: spin 5s linear infinite, scaleInOut 5s ease-in-out infinite;
     transform-origin: center;
 }
-h1 {
+.h1-text {
     font-size: 2em;
-    color: #2B2A2A; /* Change color as needed */
+    color: #928585; /* Change color as needed */
     margin: 0 0 10px;
     animation: blink-caret .75s step-end infinite ;
 }
 
 .text-color {
-    color: #2B2A2A; /* Change this to your desired color */
+    color: #928585; /* Change this to your desired color */
 }
 
 p {
     font-size: 1.2em;
-    color: #2B2A2A; /* Change color as needed */
+    color: #928585; /* Change color as needed */
     margin: 0;
     white-space: nowrap; /* Ensure the text doesn't wrap */
     overflow: hidden; /* Hide the overflowing text */
