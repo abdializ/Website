@@ -21,7 +21,7 @@ function type() {
 }
 
 function changeText() {
-    text.style.color = '#2B2A2A'; // Set the color you want
+    text.style.color = '#928585'; // Set the color you want
 
     text.innerHTML = texts[textIndex];
     textIndex = (textIndex + 1) % texts.length;
