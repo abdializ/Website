@@ -1,3 +1,4 @@
+/* Reset some basic elements for a clean slate */
 body, html {
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ body, html {
     text-align: center;
     position: relative;
     z-index: 1;
-    color: #2B2A2A; /* Example color for text against video background */
+    color: #928585; /* Example color for text against video background */
 }
 
 .spinning-a {
@@ -100,7 +101,7 @@ p {
 }
 
 /* Change the color to match the h1 element */
-.social-icon img {
+ .social-icon img {
     color: #2B2A2A; /* Same color as h1 */
 }
 
