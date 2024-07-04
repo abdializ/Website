@@ -21,7 +21,7 @@ body, html {
 
 .spinning-a {
     font-size: 3em;
-    color: #2B2A2A;
+    color: #928585;
     margin-bottom: 20px;
     animation: spin 5s linear infinite, scaleInOut 5s ease-in-out infinite;
     transform-origin: center;
@@ -66,7 +66,7 @@ p {
 
 .navbar .homelist li a {
     text-decoration: none;
-    color: #2B2A2A; /* White color for the links */
+    color: #6F6666; /* White color for the links */
     font-size: 1.3em; /* Adjust the font size as needed */
     transition: color 0.3s ease;
 }
@@ -100,7 +100,7 @@ p {
 }
 
 /* Change the color to match the h1 element */
-h1, .social-icon img {
+.social-icon img {
     color: #2B2A2A; /* Same color as h1 */
 }
 
