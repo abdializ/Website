@@ -7,6 +7,8 @@
     --button-color: var(--background-color);
 }
 
+/* Checking github update */
+
 /* Light mode overrides */
 body.light-mode {
     --background-color: #FFF1E1;
