@@ -1,4 +1,22 @@
 /* Reset some basic elements for a clean slate */
+:root {
+    --background-color: #090B09;
+    --text-color: #928585;
+    --link-color: #6F6666;
+    --border-color: #777777;
+    --button-color: var(--background-color);
+}
+
+/* Light mode overrides */
+body.light-mode {
+    --background-color: #FFF1E1;
+    --text-color: #000000;
+    --link-color: #1a73e8;
+    --border-color: #cccccc;
+    --button-color: var(--background-color);
+}
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -8,9 +26,41 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #090B09; /* Creamy background color */
+    background-color: var(--background-color);
     overflow: hidden;
 }
+
+#theme-toggle {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: var(--button-color); /* Purple color */
+    color: #948779; /* White text */
+    border: none;
+    border-radius: 10%; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    align-items: center;
+    justify-content: center;
+    font-size: 2em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 120px; /* Set width */
+    line-height: 10px;
+    height: 50px; /* Set height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+    transition: background-color 0.2s ease, transform 0.4s ease; /* Smooth transitions */
+}
+
+#theme-toggle:hover {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--button-color); /* Slightly lighter purple on hover */
+    transform: scale(1.2); /* Slightly larger on hover */
+}
+
+#theme-toggle:active {
+    transform: scale(.85); /* Slightly smaller when clicked */
+}
+
 
 
 .container {
@@ -151,6 +201,5 @@ p {
         font-size: 1em; /* Decrease font size */
     }
 }
-
 
 
