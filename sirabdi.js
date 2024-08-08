@@ -33,4 +33,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     type();
 });
 
+// dark.light modes 
+// script.js
+
+document.getElementById('theme-toggle').addEventListener('click', function() {
+    document.body.classList.toggle('light-mode');
+});
+
 
